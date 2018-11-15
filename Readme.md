@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/DateNavigatorCustomized/Form1.cs)
+* [MyDateNavigator.cs](./CS/DateNavigatorCustomized/MyDateNavigator.cs) (VB: [MyDateNavigator.vb](./VB/DateNavigatorCustomized/MyDateNavigator.vb))
+* [Program.cs](./CS/DateNavigatorCustomized/Program.cs)
+<!-- default file list end -->
 # How to modify the behavior of the DateNavigator control
 
 
