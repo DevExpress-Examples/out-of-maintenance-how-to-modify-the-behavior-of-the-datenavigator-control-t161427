@@ -18,6 +18,8 @@ namespace DateNavigatorCustomized {
             schedulerControl1.Start = new DateTime(2010, 7, 11);
                         
             FillData();
+
+            dateNavigator1.SelectionBehavior = DevExpress.XtraEditors.Controls.CalendarSelectionBehavior.Simple;
         }
 
         #region FillData

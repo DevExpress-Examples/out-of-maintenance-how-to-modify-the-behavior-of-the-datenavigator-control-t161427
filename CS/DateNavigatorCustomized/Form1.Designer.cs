@@ -16,6 +16,8 @@
 // You can find sample updates and versions for different programming languages here:
 // http://www.devexpress.com/example=E155
 
+using DevExpress.XtraScheduler;
+
 namespace DateNavigatorCustomized
 {
     partial class Form1 {
@@ -48,7 +50,7 @@ namespace DateNavigatorCustomized
             this.schedulerStorage1 = new DevExpress.XtraScheduler.SchedulerStorage(this.components);
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.schedulerControl1 = new DevExpress.XtraScheduler.SchedulerControl();
-            this.dateNavigator1 = new DateNavigatorCustomized.MyDateNavigator();
+            this.dateNavigator1 = new DateNavigator();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator1)).BeginInit();
@@ -107,7 +109,7 @@ namespace DateNavigatorCustomized
         private DevExpress.XtraScheduler.SchedulerStorage schedulerStorage1;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
         private DevExpress.XtraScheduler.SchedulerControl schedulerControl1;
-        private MyDateNavigator dateNavigator1;
+        private DateNavigator dateNavigator1;
     }
 }
 
