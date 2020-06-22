@@ -16,6 +16,8 @@
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E155
 
+Imports DevExpress.XtraScheduler
+
 Namespace DateNavigatorCustomized
     Partial Public Class Form1
         ''' <summary>
@@ -34,7 +36,7 @@ Namespace DateNavigatorCustomized
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
+#Region "Windows Form Designer generated code"
 
         ''' <summary>
         ''' Required method for Designer support - do not modify
@@ -47,7 +49,7 @@ Namespace DateNavigatorCustomized
             Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
             Me.defaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
             Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
-            Me.dateNavigator1 = New DateNavigatorCustomized.MyDateNavigator()
+            Me.dateNavigator1 = New DateNavigator()
             DirectCast(Me.schedulerStorage1, System.ComponentModel.ISupportInitialize).BeginInit()
             DirectCast(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
             DirectCast(Me.dateNavigator1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,7 +86,7 @@ Namespace DateNavigatorCustomized
             ' 
             ' Form1
             ' 
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0F, 13.0F)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
             Me.ClientSize = New System.Drawing.Size(784, 561)
             Me.Controls.Add(Me.schedulerControl1)
@@ -98,12 +100,12 @@ Namespace DateNavigatorCustomized
 
         End Sub
 
-        #End Region
+#End Region
 
         Private WithEvents schedulerStorage1 As DevExpress.XtraScheduler.SchedulerStorage
         Private defaultLookAndFeel1 As DevExpress.LookAndFeel.DefaultLookAndFeel
         Private schedulerControl1 As DevExpress.XtraScheduler.SchedulerControl
-        Private dateNavigator1 As MyDateNavigator
+        Private dateNavigator1 As DateNavigator
     End Class
 End Namespace
 

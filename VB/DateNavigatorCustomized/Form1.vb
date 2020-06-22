@@ -20,6 +20,8 @@ Namespace DateNavigatorCustomized
             schedulerControl1.Start = New Date(2010, 7, 11)
 
             FillData()
+
+            dateNavigator1.SelectionBehavior = DevExpress.XtraEditors.Controls.CalendarSelectionBehavior.Simple
         End Sub
 
         #Region "FillData"
